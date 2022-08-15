@@ -2,5 +2,15 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
+ETH_RPC_URL="https://rinkeby.infura.io/v3/4e4db88529c042ffbb21ddcb9b7f936f"
+
+
+
+
+remappings = [
+    "@openzeppelin/=lib/openzeppelin-contracts/"
+]
+
+
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
